@@ -5,48 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
 
-    <ul>
+    <ul id="menu"> 
         <li> <a href="index.html">Home</a></li> <!--home-->
         <li><a href="contato.html">Contato</a></li> <!--contato-->
     </ul>
 
-    <h2>Sobre a autora</h2>
-    <p>Aline Moreira Brilhante, 25 anos, paulistana estudate dedesenvolvimento web fullstack na Generation Brasil, amante de gatos, culinária vegana, música, filmes e séries, e dá uma de artista nas horas vagas.n</p>
+    <h2 class="center">Sobre a autora</h2>
+    <p class="justify p-30">Aline Moreira Brilhante, 25 anos, paulistana, estudante de desenvolvimento web fullstack na Generation Brasil, amante de gatos, culinária vegana, música, filmes e séries, e dá uma de artista nas horas vagas.</p>
 
-    <h2>Minhas redes:</h2>
-
-    <ul>
-        <li><a href="https://github.com/aline-brilhante">Github</a></li><br>
-        <li><a href="https://www.linkedin.com/in/alinebrilhante/">Linkedin</a></li><br>
-        <li><a href="https://letterboxd.com/brilhanteline/">Letterboxd</a></li><br>
-        <li><a href="https://www.last.fm/pt/user/toxicradioyeah">Last.fm</a></li><br>
-    </ul>
-
-    <h2>
-        Entre em contato comigo
-    </h2>
+    <h2 class="center">Entre em contato comigo!</h2>
    
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="" cols="30" rows="10"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <section class="container1">
+        <section>    
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </section>
 
+        <section class="ml-50 mb-50">
+            <p>Espaço Itaú de Cinema - Shopping Frei Caneca</p>
+            <p>Rua Frei Caneca, 569, São Paulo - SP</p>
 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.3513959640178!2d-46.65404027081016!3d-23.55387259904291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58353b285069%3A0x6080525915e2e619!2sEspa%C3%A7o%20Ita%C3%BA%20de%20Cinema%20-%20Frei%20Caneca!5e0!3m2!1spt-BR!2sbr!4v1623980074163!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </section>
+    <hr>
+    <footer>
+        <section class="container1">
+            <a href="https://www.linkedin.com/in/alinebrilhante/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            
+            <a href="https://github.com/aline-brilhante" target="_blank">
+                <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do Github">
+            </a>
 
+            <a href="https://www.last.fm/pt/user/toxicradioyeah" target="_blank">
+                <img class="tm-social p-30" src="assets/img/lastfm.png" alt="Logo do Last.fm">
+            </a>
 
+            <a href="https://letterboxd.com/brilhanteline/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/letterboxd.png" alt="Logo do Letterboxd">
+            </a>
+        </section>
+        <p class="center">
+            Todos os direitos reservados para Aline Brilhante &copy;
+        </p>
+    </footer>
 </body>
 </html>
